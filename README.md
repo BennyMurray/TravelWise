@@ -5,3 +5,4 @@
 **TravelWise** is a web application written in Javascript, HTML & CSS. It generates a large range of educational goals and activities that can be achived based on the mode and length of a user's commute. 
 
 ##Demo
+![travelwise](https://cloud.githubusercontent.com/assets/17185335/18990559/c170dfb0-870a-11e6-84c5-df8846d7f1b8.gif)
