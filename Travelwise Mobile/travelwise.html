@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="travelwise.css">
+	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="powerange.css">
+	<link rel="shortcut icon" type="image/x-icon" href="static/beer.ico">
+	<script src="jquery-2.1.3.min.js"></script> 
+	<title>travelwise</title>	
+	
+	
+
+
+	
+</head>
+
+<body>
+	<body onload="begin()">
+
+		
+		<div id="page1_wrapper">
+			
+			<div id="title_div" >
+				<h1 id="title" >travel<span id="wise">wise</span></h1>
+				<h2 id="subtitle">use your commute effectively</h2>
+				<h3 id="begin">tap the screen to begin</h3>
+					
+					<div id="buttons">
+						<div class="rounded_rectangle" id="public_button"><img id="public"  class="button_image" src="images/public.svg"><h4 id="public_text">public<br>transport</h4></div>
+						<div class="rounded_rectangle"><img id="walking"  class="button_image" src="images/walking.svg"><h4 id="public_text">on foot</h4></div>
+						<div class="rounded_rectangle"><img id="car"  class="button_image" src="images/car.svg"><h4>car</h4></div>
+						<div class="rounded_rectangle"><img id="bike"  class="button_image" src="images/bike.svg"><h4>bike</h4></div>
+					</div>
+					
+				<div id="slider_div">
+					<input type="text" id="slider" class="sliderbar" />
+					<h5><span id="hour">00</span>h:<span id="min">00</span>m</h5>
+					<h3 id="tap">tap to continue</h3>
+				</div>
+				
+				<h5 id="days"><span id="left_button" class="arrow_button" onclick="changeDayLeft()"> &#8678 </span><span id="day">5</span><span id="right_button" class="arrow_button"  onclick="changeDayRight()"> &#8680 </span></h5>
+				<h3 id="tap2">tap the screen to continue</h3>
+			</div>
+			
+		
+			
+			<footer id="skyline_wrapper">
+				
+				<img class="millhead" id="millhead1" src="images/millhead.svg">
+				<img class="millhead" id="millhead2" src="images/millhead.svg">
+				<img class="millhead" id="millhead3" src="images/millhead.svg">
+				<img class="millhead" id="millhead4" src="images/millhead.svg">
+				<img class="millhead" id="millhead5" src="images/millhead.svg">
+				<img class="millhead" id="millhead6" src="images/millhead.svg">
+				<img id="clouds" src="images/clouds.svg">
+				<img id="train" src="images/train.svg">
+				<img id="skyline_background" src="images/skyline_background.svg">
+				<img id="skyline_foreground" src="images/skyline_foreground.svg">
+				
+			</footer>
+		</div>
+	
+		<div id="page2_wrapper">
+			<div id="info_div">
+				<img id="info_bike" src="images/bike.svg">
+				<h6 id="infoone" class="info">You spend<b> 15 hours & 30 minutes</b> commuting!</h5>
+				<h6 id="infotwo" class="info">That's potentially<b> 780 hours per year</b> or <b> 13.5%</b> of your awake time!</h5>
+				<h6 id="infothree" class="info"><br><br><br>Tap to see some stuff you could be doing with that time!</h5>
+			</div>
+		</div>
+		
+		
+			<div id="page3_wrapper">
+				
+			<div class="rounded_rectangle2"><h6>1 day</h6><div class="line"></div><h6>How to Build a Fire</h6></div>
+				<div class="rounded_rectangle2"><h6>2 days</h6><div class="line"></div><h6>Read Kafka's Metamorphosis</h6></div>
+				<div class="rounded_rectangle2"><h6>3 days</h6><div class="line"></div><h6>Morse Code</h6></div>
+				<div class="rounded_rectangle2"><h6>4 days</h6><div class="line"></div><h6>The Art of Debate</h6></div>
+				<div class="rounded_rectangle2"><h6>5 days</h6><div class="line"></div><h6>Cyrillic Alphabet </h6></div>
+				<div class="rounded_rectangle2"><h6>6 days</h6><div class="line"></div><h6>Basic American Sign Language</h6></div>
+				<div class="rounded_rectangle2"><h6>7 days</h6><div class="line"></div><h6>Speed Reading</h6></div>
+				<div class="rounded_rectangle2"><h6>8 days</h6><div class="line"></div><h6>History of the Soviet Union</h6></div>
+				<div class="rounded_rectangle2"><h6>9 days</h6><div class="line"></div><h6>Basic HTML/CSS</h6></div>
+				<div class="rounded_rectangle2"><h6>10 days</h6><div class="line"></div><h6>Easy French Cusine</h6></div>
+				<div class="rounded_rectangle2"><h6>11 days</h6><div class="line"></div><h6>How to Negotiate</h6></div>
+				<div class="rounded_rectangle2"><h6>12 days</h6><div class="line"></div><h6>Read 1984</h6></div>
+				<div class="rounded_rectangle2"><h6>13 days</h6><div class="line"></div><h6>Publish a Short Story</h6></div>
+				<div class="rounded_rectangle2"><h6>14 days</h6><div class="line"></div><h6>Basic Python</h6></div>
+				
+				<div class="rounded_rectangle2"><h6>15 days</h6><div class="line"></div><h6>500 French words</h6></div>
+				<div class="rounded_rectangle2"><h6>16 days</h6><div class="line"></div><h6>Read Plato's Symposium</h6></div>
+				<div class="rounded_rectangle2"><h6>17 days</h6><div class="line"></div><h6>Basic Java</h6></div>
+				<div class="rounded_rectangle2"><h6>18 days</h6><div class="line"></div><h6>The History of Beer</h6></div>
+				<div class="rounded_rectangle2"><h6>19 days</h6><div class="line"></div><h6>600 German Words</h6></div>
+				<div class="rounded_rectangle2"><h6>20 days</h6><div class="line"></div><h6>Hieroglyphics</h6></div>
+				<div class="rounded_rectangle2"><h6>21 days</h6><div class="line"></div><h6>800 Spanish Words</h6></div>
+				<div class="rounded_rectangle2"><h6>22 days</h6><div class="line"></div><h6>History of the USA</h6></div>
+				<div class="rounded_rectangle2"><h6>23 days</h6><div class="line"></div><h6>Angular JS</h6></div>
+				<div class="rounded_rectangle2"><h6>24 days</h6><div class="line"></div><h6>Machine Learning</h6></div>
+				<div class="rounded_rectangle2"><h6>25 days</h6><div class="line"></div><h6>Django Development</h6></div>
+				<div class="rounded_rectangle2"><h6>26 days</h6><div class="line"></div><h6>Responsive Web Design</h6></div>
+				<div class="rounded_rectangle2"><h6>27 days</h6><div class="line"></div><h6>Rudimentary Spanish</h6></div>
+				<div class="rounded_rectangle2"><h6>28 days</h6><div class="line"></div><h6>Program a Video Game</h6></div>
+				
+				<footer id="skyline_wrapper2">
+				
+				<img class="millhead" id="millhead1" src="images/millhead.svg">
+				<img class="millhead" id="millhead2" src="images/millhead.svg">
+				<img class="millhead" id="millhead3" src="images/millhead.svg">
+				<img class="millhead" id="millhead4" src="images/millhead.svg">
+				<img class="millhead" id="millhead5" src="images/millhead.svg">
+				<img class="millhead" id="millhead6" src="images/millhead.svg">
+				<img id="clouds" src="images/clouds.svg">
+				<img id="train" src="images/train.svg">
+				<img id="skyline_background" src="images/skyline_background.svg">
+				<img id="skyline_foreground" src="images/skyline_foreground.svg">
+				
+			</footer>
+				
+			</div>
+	
+		</div>
+		
+	
+	<script src="jquery-2.1.3.min.js"></script> 
+	<script src="powerange.js">	</script>
+	
+	
+
+	
+	<script type="text/javascript">
+	
+		
+		var elem = document.querySelector('.sliderbar');
+		var init = new Powerange(elem, {callback: convertTime, decimal: false, vertical: false, min: 0, max: 270, start: 0, step:1, hideRange: true});
+		var lever = 0;
+	
+		function begin(){
+			 setTimeout(function() { document.getElementById("begin").style.opacity = "1";}, 1600);	
+		}
+		
+		
+		
+		$('#page1_wrapper').on({ 'click' : function(){ 
+			
+			if(lever == 0){
+			$('#title').addClass('animated flipOutX');
+			setTimeout(function() { document.getElementById("title_div").style.marginTop = "-5%";}, 200);
+			setTimeout(function() { document.getElementById("begin").style.opacity= "0";}, 200);
+			setTimeout(function() { document.getElementById("subtitle").innerHTML = "How do you get to work?";}, 200);
+			setTimeout(function() { document.getElementById("subtitle").style.fontSize = '3.2vw';}, 200);
+			setTimeout(function() { document.getElementById("buttons").style.display="inline-block";}, 200);
+			$('#buttons').addClass('animated flipInX');
+			lever = 1;
+			}
+		} });
+		
+		
+			$('#public_button').on({ 'click' : function(){ 
+
+			$('#buttons').addClass('animated flipOutX');
+			document.getElementById("buttons").style.zIndex='-10';
+			setTimeout(function() { document.getElementById("title_div").style.marginTop = "-5%";}, 200);
+			setTimeout(function() { document.getElementById("subtitle").innerHTML = "How long does it take you to travel to work?";}, 200);
+			setTimeout(function() { document.getElementById("buttons").style.display="none";}, 1800);
+			setTimeout(function() { document.getElementById("slider_div").style.opacity='1'; $('#slider_div').addClass('animated flipInX');}, 350);
+			setTimeout(function() { lever = 2;}, 350);
+
+		} });
+		
+		
+		
+			$('#subtitle').on({ 'click' : function(){ 
+
+			$('#slider_div').addClass('animated flipOutX');
+			setTimeout(function() { document.getElementById("title_div").style.marginTop = "-5%";}, 300);
+			setTimeout(function() { document.getElementById("subtitle").innerHTML = "How many days a week do you work on average?";}, 300);
+			setTimeout(function() { document.getElementById("slider_div").style.display="none";}, 300);
+			setTimeout(function() { document.getElementById("begin").style.display= "none";}, 300);
+			setTimeout(function() { document.getElementById("tap2").style.display= "block";}, 300);
+			$('#tap2').addClass('animated flipInX');
+			setTimeout(function() { document.getElementById("days").style.display="inline-block"; $('#days').addClass('animated flipInX');}, 300);
+			
+
+		} });
+		
+		
+		
+		
+		
+			$('#tap2').on({ 'click' : function(){ 
+			
+			$('#skyline_wrapper').addClass('animated bounceOutLeft');
+			$('#title_div').addClass('animated bounceOutRight');
+			setTimeout(function() { document.getElementById("page1_wrapper").style.display= "none"; }, 300);
+			setTimeout(function() { document.getElementById("page2_wrapper").style.display= "inline-block"; document.getElementById("bikeframe").style.display= "inline-block";}, 300);
+			setTimeout(function() { document.getElementById("info_div").style.display= "inline-block"; }, 300);
+			setTimeout(function() { document.getElementById("info_bike").style.opacity= "1"; }, 500);
+			setTimeout(function() { document.getElementById("infoone").style.opacity= "1"; }, 500);
+			setTimeout(function() { document.getElementById("infotwo").style.opacity= "1"; }, 2000);
+			setTimeout(function() { document.getElementById("infothree").style.opacity= "1"; }, 3800);
+		} });
+		
+		
+		
+		
+			$('#page2_wrapper').on({ 'click' : function(){ 
+			
+			$('#skyline_wrapper').addClass('animated bounceOutLeft');
+			$('#info_div').addClass('animated bounceOutRight');
+			
+			setTimeout(function() { document.getElementById("page2_wrapper").style.display= "none"; }, 300);
+			setTimeout(function() { document.getElementById("page3_wrapper").style.display= "inline-block";}, 300);
+			setTimeout(function() { document.getElementById("info_div").style.display= "none"; }, 300);
+			$('.rounded_rectangle2').addClass('animated flipInY');
+			$('#skyline_wrapper2').addClass('animated flipInX');
+			setTimeout(function() { document.getElementById("skyline_wrapper").style.opacity= "0.6"; }, 300);
+			document.body.style.overflowY = "scroll";
+		} });
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		function convertTime(){
+			
+			if(elem.value == 0){
+				document.getElementById('tap').style.opacity = '0';
+				document.getElementById('hour').innerHTML = '00';
+				document.getElementById('min').innerHTML = '00';
+			}else{
+			document.getElementById('tap').style.opacity = '1';
+			$(document).ready(function() {
+			var hours = Math.floor( elem.value / 60);          
+			var minutes = elem.value % 60;
+
+				$('#hour').html(hours);
+				$('#min').html(minutes);    
+
+			});
+
+			}	
+			}
+			
+			
+			
+			
+			
+		function changeDayLeft(){
+		
+			
+			if (parseInt(document.getElementById('day').innerHTML) == 0){
+				var newDay = 0;
+				document.getElementById('day').innerHTML = newDay.toString();
+			}else{
+			
+			var day = parseInt(document.getElementById('day').innerHTML);
+			var newDay = day - 1;
+			document.getElementById('day').innerHTML = newDay.toString();
+			
+			
+		
+			}
+		}
+		
+		
+		function changeDayRight(){
+		
+			if (parseInt(document.getElementById('day').innerHTML) == 7){
+				var newDay = 7;
+				document.getElementById('day').innerHTML = newDay.toString();
+			}else{
+			var day = parseInt(document.getElementById('day').innerHTML);
+			var newDay = day + 1;
+			document.getElementById('day').innerHTML = newDay.toString();
+		
+		
+		
+			
+			}
+		}
+		
+		
+		
+		
+
+	
+	</script>
+	
+ 
+</body>
+</html>

@@ -1,0 +1,117 @@
+activity_list = [
+	
+	[30,
+		[["Make a Ramen Egg", "https://www.youtube.com/watch?v=VLbp19Tg4OA"],
+		["Marinade the Perfect Steak", "http://www.wikihow.com/Marinate-a-Steak"],
+		["Change a tire", "https://www.youtube.com/watch?v=Tn-Xh5ldkXw"],
+		["Bake the Perfect Cookie", "https://www.youtube.com/watch?v=hCzVqaFMlIw"]
+		["CPR","https://www.youtube.com/watch?v=cosVBV96E2g"],
+		["Origami Frog", "https://www.youtube.com/watch?v=Vlb2udqPx-M"],
+		["Read Flash Ficiton", "http://flashfictiononline.com/main/"],
+	],
+	
+
+	[60,
+		["Cyrillic Alphabet", "http://learnrussian.rt.com/alphabet/"],
+		["French Coin Drop", "https://www.youtube.com/watch?v=EZ0C2wh5IyE"],
+		["Coin Roll", "https://www.youtube.com/watch?v=wbokdZh7_Gg"]
+		["Build a PC"], "http://www.wikihow.com/Build-a-Computer"]
+		["Build a Memory Palace", "http://www.wikihow.com/Build-a-Memory-Palace"]
+		["Pick a Simple Lock", "https://www.youtube.com/watch?v=cjuT_63Ioig"],
+		["Vegetable & Fruit Seasons", "http://redfinance.net/wp-content/uploads/2016/02/Seasonal-Guide-.png"],
+		["Write Flash Fiction", "https://www.theguardian.com/books/2012/may/14/how-to-write-flash-fiction"],
+		],
+
+	
+	[120, 
+		["Katakana", "https://www.tofugu.com/japanese/learn-katakana/"], 
+		["Solve a Rubix Cube", "https://www.youtube.com/watch?v=rmnSpUgOvyI"] 
+		
+	],
+	
+
+	[180, ["Katakana", "https://www.tofugu.com/japanese/learn-katakana/"], ],
+	
+	
+	[240, 
+		["Korean Alphabet", "https://www.youtube.com/watch?v=KN4mysljHYc"],
+	
+	
+	[360, 
+		["Katakana", "https://www.tofugu.com/japanese/learn-katakana/"],
+		["Read The Odyssey", "http://www.gutenberg.org/ebooks/1727"],
+	],
+	
+	
+	[540,
+		["Read the Iliad", "http://www.gutenberg.org/ebooks/1727"],
+	
+	]
+	
+	[960, 
+		["Knit a Scarf", "https://www.youtube.com/watch?v=24lR2IRS57A"]
+		["The Art of Debate", "http://www.learndebating.com/english/DEBATING.pdf"], 
+	],
+	
+	[1500, 
+		["Master Excel", "https://www.youtube.com/watch?v=7vkIB7VN75k&list=PLE10sFVGtI1dt1sNjQp6LLUycV25FNkQo"],
+		["Touch Typing", "https://www.typingclub.com/typing-qwerty-en.html"],
+		
+	],
+	
+	//1 month
+	[1860,
+		["Learn to Draw", "http://www.alexhays.com/loomis/Andrew%20Loomis%20-%20Fun%20WIth%20a%20Pencil.pdf"],
+		["Write a Short Story", "http://www.wikihow.com/Write-a-Short-Story"],
+	
+	],
+	
+	[5580, 
+		["Write a Novella", "http://www.wikihow.com/Write-a-Novel"],
+		["read Joyce's Ulysses", http://www.gutenberg.org/ebooks/4300],
+		
+	],
+	
+	
+	[96720,
+		["Write a Novel","http://www.wikihow.com/Write-a-Novel"],
+		
+	]
+	
+
+	
+
+
+
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+var one_day = 60; (round this to a number divisble by 30 if not already)
+
+list = [
+    [60,"eat poo","eat snots"],
+    [60,"eat poo","eat snots"],
+    [120, "Read Metamorphosis", "Learn 300 words in French"],
+    ];
+
+
+for (i = 0; i < list.length; i++) { 
+    x = list[i][0]/one_day + " days " + list[i] [getRandomInt(1,list[i].length-1)] + i;
+    document.getElementById('text').innerHTML = x
+};
+

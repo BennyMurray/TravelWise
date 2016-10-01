@@ -1,0 +1,501 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+
+}
+
+
+html{
+	width: 100%;
+	height: 100%;
+	font-size: 1vw;
+	font-family: century gothic;
+	
+	
+}
+
+
+#tap2_button{
+	display: none;
+	transition: 0.8s;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+#page1_wrapper{
+	width: 100%;
+	height: 100%;
+	z-index: 2000:
+}
+
+#page3_wrapper{
+	position: absolute;
+	left: 1.5%;
+	top: 3%;
+	display: none;
+	width: 100%;
+	height: 100%;
+	z-index: 2000:
+
+}
+
+
+#title_div{
+	width: 100%;
+	height: 40%;
+	transition: 0.5s;
+	margin-top: 14%;
+}
+
+#title{
+	font-size: 13vw;	
+	transitino: 0.5s
+}
+
+#wise{
+	font-weight: lighter;
+}
+
+#subtitle{
+	font-size: 4.2vw;	
+	font-weight: lighter;
+	
+}
+
+#begin{
+	
+	
+	font-size: 3vw;	
+	font-weight: lighter;
+	margin-top: 10%;
+	opacity: 0;
+	transition: opacity 0.4s;
+	cursor: pointer;
+
+}
+
+
+#transport_question{
+	font-size: 3vw;	
+	font-weight: lighter;
+	margin-top: 40%;
+	transition: opacity 1.5s;
+}
+
+#page2_wrapper{
+	display: none;
+}
+
+#skyline_wrapper{
+	position: absolute;
+	bottom: 5%;
+	width: 100%;
+	height: auto%;
+
+}
+
+
+#skyline_wrapper2{
+	opacity: 0.4;
+	position: fixed;
+	bottom: 0%;
+	right: 5%;
+	width: 170%;
+	height: auto%;
+
+}
+
+#skyline_foreground{
+	position: relative;
+	width: 100%;
+	z-index: 100;
+	height: auto%;
+}
+
+#skyline_background{
+	bottom: -9.6%;
+	position: absolute;
+	width: 100%;
+	height: auto%;
+}
+
+
+#millhead1{
+	left: 12.2%;
+	top: 68.4%;
+}
+
+#millhead2{
+	left: 16.7%;
+	top: 66.4%;
+}
+
+
+#millhead3{
+	left: 19.7%;
+	top: 70.4%;
+}
+
+#millhead4{
+	left: 24.9%;
+	top: 68.1%;
+}
+
+
+#millhead5{
+	left: 29.4%;
+	top: 66.1%;
+}
+
+#millhead6{
+	top: 69.1%;
+	left: 32.6%;
+	
+}
+
+
+
+
+.millhead{
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	width: 8%;
+	
+	height: auto%;
+	z-index: 101;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+#clouds{
+	left: 78%;
+	top: 2%;
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	width: 20%;
+	height: auto%;
+	animation: drift 40s linear infinite;
+}
+
+@keyframes drift {
+    0% {left: 78%;}
+    50% {left: 10%;}
+	100% {left: 78%;}
+
+}
+
+
+#info_div{
+	margin: 0 auto;
+	margin-top: 20%;
+	width: 80%;
+	height: 80%;
+	display: none;
+
+}
+
+
+
+#info_bike{
+	opacity: 0;
+	transition: 1.2s;
+	max-height: 100%;
+	max-width: 100%;
+	position: relative;
+	margin: 0 auto;
+	width: 40%;
+	margin-bottom: 10%:
+	height: auto%;
+}
+
+}
+
+#bikeframe{
+	margin-top: 10%;
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	left: 34%;
+	width: 33%;
+	height: auto%;
+}
+
+
+.wheel{
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	width: 13%;
+	z-index: -1;
+	height: auto%;
+    animation:ride 4s linear infinite;
+}
+@-moz-keyframes ride{ 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes ride{ 100% { -webkit-transform: rotate(360deg); } }
+@keyframes ride { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+#wheel1{
+	top: 14%;
+	left: 34.1%;
+}
+
+
+#wheel2{
+	top: 14%;
+	left: 34.1%;
+}
+
+
+#train{
+	right: 99%;
+	top: 85.2%;
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	width: 50%;
+	height: auto%;
+	z-index: 20;
+	animation: travel 14s linear infinite;
+}
+
+@keyframes travel {
+    0% {right: 99%;}
+	100% {right: -80%;}
+
+}
+
+
+#buttons{
+	position: absolute;
+	width: 100%;
+	height: 20%;
+	right: 0%;
+	display: none;
+	z-index: 20;
+}
+
+.rounded_rectangle{
+	
+	display: inline-block;
+	position: relative;
+	right: 2%;
+	width: 17vw;
+	height: 17vw;
+	border: solid 2px rgba(0,0,0,0.5);
+	border-radius: 6px;
+	margin-left: 4%;
+	cursor: pointer; 
+	z-index: 1002;
+	
+	
+}
+
+
+.rounded_rectangle2{
+	
+	background-color: rgba(255,255,255,0.7);
+	padding-left: 2%;
+	padding-right: 2%;
+	vertical-align:top;
+	display: inline-block;
+	position: relative;
+	right: 2%;
+	width: 21vw;
+	height: 18vw;
+	border: solid 2px rgba(0,0,0,0.5);
+	border-radius: 6px;
+	margin-left: 2%;
+	margin-right: 2%;
+	cursor: pointer; 
+	z-index: 1002;
+	margin-bottom: 5%;
+	
+	
+}
+
+
+
+h4{
+	font-size: 2.7vw;
+	position: absolute;
+	font-weight: lighter;
+	bottom: 2%; 
+	left: 4%;
+	margin-left: 30%;
+}
+
+.button_image{
+	opacity: 0.9;
+	position: absolute;
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	width: 90%;
+	height: auto%;
+}
+
+#public_text{
+	left: -10%;
+
+}
+
+#walking_text{
+
+}
+
+
+#public{
+
+	
+	right: 7%;
+	top: 20%;
+	width: 93%
+}
+
+#walking{
+	right: 30%;
+	top: 10%;
+	width: 35%;
+}
+
+#car{
+	right: 7%;
+	top: 20%;
+	width: 80%;
+}
+
+#bike{
+	right: 7%;
+	top: 20%;
+}
+
+.rounded_rectangle2:hover {
+    background-color: #d9d9d9;
+}
+
+
+
+
+#slider_div{
+	opacity: 0;
+	z-index: -1;
+}
+
+h5{
+	margin-top: 9%;
+	font-size: 7vw;
+	
+}
+
+
+#tap{
+	opacity: 0;
+	transition: 0.8s;
+	font-size: 3vw;
+	font-weight: lighter;
+	margin-top: 10%;
+	cursor: pointer;
+
+	
+}
+
+
+
+
+.info{
+	position: relative;
+	font-size: 3.4vw;
+	font-weight: lighter;
+	margin-top: 10%;
+}
+
+#infoone{
+	opacity: 0;
+	transition: 1.2s;
+}
+
+#infotwo{
+	opacity: 0;
+	transition: 1.2s;
+}
+
+#infothree{
+	opacity: 0;
+	transition: 1.2s;
+	font-size: 4.2vw;
+	margin-top: %;
+}
+
+
+
+#tap2{
+	display: none;
+	transition: 0.8s;
+	font-size: 3vw;
+	font-weight: lighter;
+	margin-top: 5%;
+	cursor: pointer;
+	position: relative;
+	
+	
+}
+
+
+
+h6{
+	
+	color: black;
+	margin-bottom: 2%;
+	font-size: 2.5vw;
+	font-weight: lighter;
+	margin-top: 7%;
+	cursor: pointer;
+	position: relative;
+
+}
+
+.line{
+	border: dashed 1px rgba(0,0,0,0.2);
+	width: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	height: 0px;
+
+}
+
+
+#days{
+	font-size: 24vw;
+	display: none;
+	position: relative;
+	top: -20%;
+
+}
+
+#day{
+	transition: 0.2s;
+}
+
+.arrow_button{
+	-webkit-user-select: none;
+	cursor: pointer;
+	font-size: 15vw;
+	
+}
+
